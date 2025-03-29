@@ -22,4 +22,10 @@
         <param name="file">*.spec</param>
         <param name="regex">s/.*CHOOSE:.*//g</param> 
     </service>
+
+
+    <service name="perl_regex" mode="buildtime">
+        <param name="file">*.spec</param>
+        <param name="regexfile">reg.pl</param> 
+    </service>
 </services>
